@@ -1,0 +1,18 @@
+//내 풀이
+class Solution {
+    fun solution(num1: Int, num2: Int): Int {
+        return num1-num2
+    }
+}
+
+//마음에 드는 풀이
+class Solution {
+    fun solution(num1: Int, num2: Int): Int {
+        var answer: Int = 0
+
+        if(num1 >= -50000 && num1 <= 50000 && num2 >= -50000 && num2 <= 50000)//%%사용. 숫자 범위 지정
+            answer = num1 - num2
+
+        return answer
+    }
+}
