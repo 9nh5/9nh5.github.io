@@ -1,0 +1,7 @@
+class Solution {
+    fun solution(arr: IntArray): Double {
+       var answer = arr.average()
+       require(arr.size in (0..100) && arr.all {it in -10000..10000})
+        return answer
+    }
+    }
