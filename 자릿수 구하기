@@ -1,0 +1,12 @@
+class Solution {
+    fun solution(n: Int): Int {
+
+        var number = n
+        var answer = 0
+        while(number>0 && number<=100000000){
+            answer +=number%10
+            number=number/10
+        }
+        return answer
+    }
+}
